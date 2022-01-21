@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contribute to us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        .input
+        {
+            border:0;
+            padding:30px;
+            padding-bottom: 4px;
+            padding-top:40px;
+            font-size: 20px;
+            border-bottom : 2px solid lightgrey;
+            margin-left:20px;
+        
+        }
+        body
+        {
+            background-color:#F5EEDC;
+        }
+        
+        h1, p
+        {
+            font-family: 'Lato', sans-serif;
+            font-size : 30px;
+            margin-left: 6px;
+            padding-top:20px;
+        }
+            
+
+        .form_division
+        {
+            position: absolute ;
+            right:13; 
+            width : 350;
+            background-color:aquamarine;
+            border-radius: 6px;
+            padding-top:18px;
+            
+        }
+        #choosefile
+        {
+            width:302.5px;
+            font-size:18px;
+            background-color: white;
+        }
+          
+        #submit
+        {
+               position: relative;
+               top : 18px;
+               font-size: 18px;
+               
+
+        }
+        #semester
+        {
+            width:302.5px;
+        }
+        #textareas
+        {
+            height:80px;
+        }
+        img
+        {   margin-left : 250px; 
+            height: 400px;
+            width:400px;
+            border-radius:200px;
+        }
+        .blank
+        {
+            height:200px;
+        }
+        
+    </style>
+</head>
+<body >
+    <h1> Write to us </h1>
+    <div>
+        <p>
+            you can contribute here or if you want a particular 
+            material. just write to us . 
+            
+        </p>
+    </div>
+    <form action="mailto:aayushkumar17052002@gmail.com" class = "contribution_form" method="post">
+        <div class= "form_division">
+       <label for="name"></label>
+       <input type="text" id="name" class="input" name="name" placeholder="First Name" required>
+       <br>
+       <label for="last_name"></label>
+       <input type="text" id="last_name" class="input" name="last_name" placeholder="Last name" required>
+       <br>
+       <label for="semester"></label>
+       <input type="number" id="semester" class="input" name="semester" placeholder="semester" min=1 max = 4  required>
+       <br>
+       <label for="branch"></label>
+       <input type="text" id="branch" class="input" name="branch" placeholder="branch" required>
+       <br>
+       <label for="choosefile"></label>
+       <input type="file"  class="input" id="choosefile"  name="choosefile" placeholder="choosefile" required>
+       <br>
+       <label for="textareas"></label>
+       <input type="text" class="input" name="textarea" id="textareas" name="textareas" placeholder="write your message here" required>
+       <br>
+       <label for="submit"></label>
+       <input type="submit"  id="submit" name="submit" placeholder="submit" required>
+        </div>
+    </form>
+    <div>
+        <p>
+            Happy to help !
+        </p>
+        
+    </div>
+    <div class="image_tag">
+        <img src="temp.jpeg" alt="have a good day">
+    </div >
+    <div class ="blank">
+
+    </div>
+    
+</body>
+
+</html>
